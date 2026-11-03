@@ -20,7 +20,7 @@ import org.jetbrains.anko.longToast
 import org.jetbrains.anko.startActivity
 import owasp.mastgkotlin.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : SecureBaseActivity() {
 
     // for storing JWT token after successful authentication
     var token = ""

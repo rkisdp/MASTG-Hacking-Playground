@@ -24,7 +24,7 @@ import android.widget.ProgressBar
 import com.github.kittinunf.fuel.httpPost
 import org.jetbrains.anko.longToast
 
-class RegisterActivity : AppCompatActivity() {
+class RegisterActivity : SecureBaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
