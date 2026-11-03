@@ -21,7 +21,7 @@ class InsecureWebViewActivity : AppCompatActivity() {
 
         val wv_insecureWebView = find<WebView>(R.id.webview_insecure)
         wv_insecureWebView.settings.javaScriptEnabled = true
-        wv_insecureWebView.settings.allowFileAccessFromFileURLs = true
+        wv_insecureWebView.settings.allowFileAccessFromFileURLs = false
         wv_insecureWebView.isVerticalScrollBarEnabled = true
         wv_insecureWebView.isHorizontalScrollBarEnabled = true
         wv_insecureWebView.settings.useWideViewPort = false
